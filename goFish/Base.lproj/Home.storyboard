@@ -21,35 +21,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpr-5K-B2f">
-                                <rect key="frame" x="149.5" y="303.5" width="75" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="xgo-CG-jlC" customClass="SpringLabel" customModule="Spring">
+                                <rect key="frame" x="57" y="120" width="262" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpr-5K-B2f" customClass="SpringButton" customModule="Spring">
+                                <rect key="frame" x="150" y="304" width="75" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go Fish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="40" translatesAutoresizingMaskIntoConstraints="NO" id="xgo-CG-jlC">
-                                <rect key="frame" x="56.5" y="120" width="262" height="95.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PixelFish" translatesAutoresizingMaskIntoConstraints="NO" id="cbD-tS-4Mk" customClass="SpringImageView" customModule="Spring">
+                                <rect key="frame" x="0.0" y="447" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ehL-xg-dgH"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="cbD-tS-4Mk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7IA-CV-ivI"/>
                             <constraint firstItem="xgo-CG-jlC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="AHs-GX-V0C"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cbD-tS-4Mk" secondAttribute="bottom" constant="20" id="JCj-Ga-Vtl"/>
                             <constraint firstItem="xgo-CG-jlC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L5P-d6-tr3"/>
                             <constraint firstItem="Kpr-5K-B2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lT3-yk-yfb"/>
                             <constraint firstItem="Kpr-5K-B2f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="r5C-EM-rry"/>
+                            <constraint firstAttribute="trailing" secondItem="cbD-tS-4Mk" secondAttribute="trailing" id="xHH-n6-QOT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fishImageView" destination="cbD-tS-4Mk" id="7Nx-Xc-MDM"/>
                         <outlet property="playButton" destination="Kpr-5K-B2f" id="3tC-gD-HaX"/>
                         <outlet property="titleLabel" destination="xgo-CG-jlC" id="xQ8-ZG-DUr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="26.53673163418291"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PixelFish" width="208" height="83"/>
+    </resources>
 </document>

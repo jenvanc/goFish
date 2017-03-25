@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import Spring
 
 class HomeViewController: UIViewController {
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var playButton: UIButton!
-
+    @IBOutlet weak var titleLabel: SpringLabel!
+    @IBOutlet weak var playButton: SpringButton!
+    @IBOutlet weak var fishImageView: SpringImageView!
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        UIView.animate(withDuration: 0.5) {
-            self.titleLabel.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
-        }
+        titleLabel.animation = "squeezeDown"
+        titleLabel.curve = "easeInOut"
+        titleLabel.duration = 1.0
+        titleLabel.animate()
+        
+        fishImageView.animation = "slideLeft"
+        fishImageView.curve = "easeIn"
+        fishImageView.duration = 2.5
+        fishImageView.repeatCount = 100
+        fishImageView.animate()
     }
 
 }
