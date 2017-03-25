@@ -9,12 +9,10 @@
 import Foundation
 
 enum Rank: CustomStringConvertible {
-    case One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
+    case Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
     
     var description: String {
         switch self {
-        case .One:
-            return "1"
         case .Two:
             return "2"
         case .Three:
@@ -45,7 +43,6 @@ enum Rank: CustomStringConvertible {
     }
     
     static let AllValues: [Rank] = [
-        .One,
         .Two,
         .Three,
         .Four,

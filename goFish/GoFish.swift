@@ -26,7 +26,7 @@ class GoFish {
         self.deck = deck
     }
     
-    func goFish(player: Player) -> Card? {
+    func goFish() -> Card? {
         guard !deck.cards.isEmpty else { return nil }
         return deck.draw()
     }

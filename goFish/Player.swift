@@ -10,19 +10,33 @@ import Foundation
 
 struct Player {
     
-    var hand: [Card] = [Card]() {
-        didSet {
-            let pairs = hand.filter({ _ in
-                hand.elementsEqual(self.hand, by: { (cardOne, cardTwo) -> Bool in
-                    return cardOne.rank == cardTwo.rank
-                })
-            })
-            self.score += pairs.count / 2
-            pairs.forEach { self.hand.remove(object: $0) }
-        }
-    }
+    private var hand: [Card] = [Card]()
 
     var score: Int = 0
+    
+    mutating func draw(card: Card) {
+       hand.append(card)
+       guard hand.count > 1 else {
+            return
+       }
+       updateScore()
+    }
+    
+    func has(card: Card) -> Bool {
+        return hand.contains(card)
+    }
+    
+    private mutating func updateScore() {
+        let pairs = hand.filter { (card) -> Bool in
+            hand.contains { (pairing) -> Bool in
+                card.suit != pairing.suit && card.rank == pairing.rank
+            }
+            
+        }
+        score += pairs.count / 2
+        pairs.forEach { self.hand.remove(object: $0) }
+        
+    }
     
 }
 

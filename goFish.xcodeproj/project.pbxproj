@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172FF18E7275DDF06DE0B0E5 /* Pods_goFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB1D104724AD3CF4C1ABC5 /* Pods_goFish.framework */; };
+		1A7A3DAAAD1913E09E386CD0 /* Pods_goFishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7CB45DECABB271482C6A91 /* Pods_goFishTests.framework */; };
+		3B388D061E66659B00533186 /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B388D051E66659B00533186 /* DeckSpec.swift */; };
+		3B388D081E6667C100533186 /* GoFishSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B388D071E6667C100533186 /* GoFishSpec.swift */; };
+		3B388D0A1E666C4400533186 /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B388D091E666C4400533186 /* PlayerSpec.swift */; };
 		3BDB83271E5D0BFE006053A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83261E5D0BFE006053A1 /* AppDelegate.swift */; };
 		3BDB83291E5D0BFE006053A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83281E5D0BFE006053A1 /* ViewController.swift */; };
 		3BDB832C1E5D0BFE006053A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB832A1E5D0BFE006053A1 /* Main.storyboard */; };
 		3BDB832E1E5D0BFE006053A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB832D1E5D0BFE006053A1 /* Assets.xcassets */; };
 		3BDB83311E5D0BFE006053A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB832F1E5D0BFE006053A1 /* LaunchScreen.storyboard */; };
-		3BDB833C1E5D0BFE006053A1 /* goFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB833B1E5D0BFE006053A1 /* goFishTests.swift */; };
-		3BDB83471E5D0BFF006053A1 /* goFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83461E5D0BFF006053A1 /* goFishUITests.swift */; };
 		3BDB83551E5D0CDA006053A1 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83541E5D0CDA006053A1 /* Rank.swift */; };
 		3BDB83571E5D1151006053A1 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83561E5D1151006053A1 /* Suit.swift */; };
 		3BDB83591E5D126B006053A1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB83581E5D126B006053A1 /* Card.swift */; };
@@ -30,16 +33,17 @@
 			remoteGlobalIDString = 3BDB83221E5D0BFE006053A1;
 			remoteInfo = goFish;
 		};
-		3BDB83431E5D0BFE006053A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BDB831B1E5D0BFE006053A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BDB83221E5D0BFE006053A1;
-			remoteInfo = goFish;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FD7B48D46511207D562E94 /* Pods-goFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goFish/Pods-goFish.debug.xcconfig"; sourceTree = "<group>"; };
+		198BC8EFC62DE5D9BCA62EE7 /* Pods-goFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-goFish/Pods-goFish.release.xcconfig"; sourceTree = "<group>"; };
+		1E7CB45DECABB271482C6A91 /* Pods_goFishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goFishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD0738550F3E566B7732D33 /* Pods-goFishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFishUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goFishUITests/Pods-goFishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B388D041E66659B00533186 /* goFishTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goFishTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		3B388D051E66659B00533186 /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
+		3B388D071E6667C100533186 /* GoFishSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoFishSpec.swift; sourceTree = "<group>"; };
+		3B388D091E666C4400533186 /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpec.swift; sourceTree = "<group>"; };
 		3BDB83231E5D0BFE006053A1 /* goFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDB83261E5D0BFE006053A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BDB83281E5D0BFE006053A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,17 +52,18 @@
 		3BDB83301E5D0BFE006053A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDB83321E5D0BFE006053A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BDB83371E5D0BFE006053A1 /* goFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BDB833B1E5D0BFE006053A1 /* goFishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goFishTests.swift; sourceTree = "<group>"; };
 		3BDB833D1E5D0BFE006053A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BDB83421E5D0BFE006053A1 /* goFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BDB83461E5D0BFF006053A1 /* goFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goFishUITests.swift; sourceTree = "<group>"; };
-		3BDB83481E5D0BFF006053A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BDB83541E5D0CDA006053A1 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
 		3BDB83561E5D1151006053A1 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
 		3BDB83581E5D126B006053A1 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		3BDB835B1E5D12AC006053A1 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		3BDB835F1E5D18A5006053A1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3BDB83611E5D18EE006053A1 /* GoFish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoFish.swift; sourceTree = "<group>"; };
+		5177BB4536EB7496F0264168 /* Pods_goFishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goFishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB82F6450711CD955674292 /* Pods-goFishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFishTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-goFishTests/Pods-goFishTests.release.xcconfig"; sourceTree = "<group>"; };
+		65AC5C1F62C4E9793B036AFD /* Pods-goFishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFishUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-goFishUITests/Pods-goFishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		848A46F31F1B8237EFD2ADE3 /* Pods-goFishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goFishTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goFishTests/Pods-goFishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86AB1D104724AD3CF4C1ABC5 /* Pods_goFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172FF18E7275DDF06DE0B0E5 /* Pods_goFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,13 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BDB833F1E5D0BFE006053A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A7A3DAAAD1913E09E386CD0 /* Pods_goFishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +91,9 @@
 			children = (
 				3BDB83251E5D0BFE006053A1 /* goFish */,
 				3BDB833A1E5D0BFE006053A1 /* goFishTests */,
-				3BDB83451E5D0BFE006053A1 /* goFishUITests */,
 				3BDB83241E5D0BFE006053A1 /* Products */,
+				A7ECEF1A3DFF3FD447E75C4F /* Pods */,
+				B4D8C7F02D44FD1F3DF2C9B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +102,6 @@
 			children = (
 				3BDB83231E5D0BFE006053A1 /* goFish.app */,
 				3BDB83371E5D0BFE006053A1 /* goFishTests.xctest */,
-				3BDB83421E5D0BFE006053A1 /* goFishUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,19 +124,13 @@
 		3BDB833A1E5D0BFE006053A1 /* goFishTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BDB833B1E5D0BFE006053A1 /* goFishTests.swift */,
 				3BDB833D1E5D0BFE006053A1 /* Info.plist */,
+				3B388D051E66659B00533186 /* DeckSpec.swift */,
+				3B388D041E66659B00533186 /* goFishTests-Bridging-Header.h */,
+				3B388D071E6667C100533186 /* GoFishSpec.swift */,
+				3B388D091E666C4400533186 /* PlayerSpec.swift */,
 			);
 			path = goFishTests;
-			sourceTree = "<group>";
-		};
-		3BDB83451E5D0BFE006053A1 /* goFishUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3BDB83461E5D0BFF006053A1 /* goFishUITests.swift */,
-				3BDB83481E5D0BFF006053A1 /* Info.plist */,
-			);
-			path = goFishUITests;
 			sourceTree = "<group>";
 		};
 		3BDB835A1E5D129B006053A1 /* Models */ = {
@@ -151,6 +145,29 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		A7ECEF1A3DFF3FD447E75C4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FD7B48D46511207D562E94 /* Pods-goFish.debug.xcconfig */,
+				198BC8EFC62DE5D9BCA62EE7 /* Pods-goFish.release.xcconfig */,
+				848A46F31F1B8237EFD2ADE3 /* Pods-goFishTests.debug.xcconfig */,
+				5CB82F6450711CD955674292 /* Pods-goFishTests.release.xcconfig */,
+				2CD0738550F3E566B7732D33 /* Pods-goFishUITests.debug.xcconfig */,
+				65AC5C1F62C4E9793B036AFD /* Pods-goFishUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4D8C7F02D44FD1F3DF2C9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AB1D104724AD3CF4C1ABC5 /* Pods_goFish.framework */,
+				1E7CB45DECABB271482C6A91 /* Pods_goFishTests.framework */,
+				5177BB4536EB7496F0264168 /* Pods_goFishUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDB834B1E5D0BFF006053A1 /* Build configuration list for PBXNativeTarget "goFish" */;
 			buildPhases = (
+				B20FCC532890E9CE58C2DCA5 /* [CP] Check Pods Manifest.lock */,
 				3BDB831F1E5D0BFE006053A1 /* Sources */,
 				3BDB83201E5D0BFE006053A1 /* Frameworks */,
 				3BDB83211E5D0BFE006053A1 /* Resources */,
+				D07079581617DA17D9208DF5 /* [CP] Embed Pods Frameworks */,
+				3F1EEA63D08EBC7EDE8A866A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDB834E1E5D0BFF006053A1 /* Build configuration list for PBXNativeTarget "goFishTests" */;
 			buildPhases = (
+				FB12438F1036BE5B24AB7A6A /* [CP] Check Pods Manifest.lock */,
 				3BDB83331E5D0BFE006053A1 /* Sources */,
 				3BDB83341E5D0BFE006053A1 /* Frameworks */,
 				3BDB83351E5D0BFE006053A1 /* Resources */,
+				FA32927337D85F83F19E81A5 /* [CP] Embed Pods Frameworks */,
+				D8F43CC15D9A72BB35E35F65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,24 +211,6 @@
 			productName = goFishTests;
 			productReference = 3BDB83371E5D0BFE006053A1 /* goFishTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3BDB83411E5D0BFE006053A1 /* goFishUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BDB83511E5D0BFF006053A1 /* Build configuration list for PBXNativeTarget "goFishUITests" */;
-			buildPhases = (
-				3BDB833E1E5D0BFE006053A1 /* Sources */,
-				3BDB833F1E5D0BFE006053A1 /* Frameworks */,
-				3BDB83401E5D0BFE006053A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3BDB83441E5D0BFE006053A1 /* PBXTargetDependency */,
-			);
-			name = goFishUITests;
-			productName = goFishUITests;
-			productReference = 3BDB83421E5D0BFE006053A1 /* goFishUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,11 +228,7 @@
 					};
 					3BDB83361E5D0BFE006053A1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3BDB83221E5D0BFE006053A1;
-					};
-					3BDB83411E5D0BFE006053A1 = {
-						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3BDB83221E5D0BFE006053A1;
 					};
@@ -248,7 +249,6 @@
 			targets = (
 				3BDB83221E5D0BFE006053A1 /* goFish */,
 				3BDB83361E5D0BFE006053A1 /* goFishTests */,
-				3BDB83411E5D0BFE006053A1 /* goFishUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,14 +271,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BDB83401E5D0BFE006053A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F1EEA63D08EBC7EDE8A866A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goFish/Pods-goFish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		B20FCC532890E9CE58C2DCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D07079581617DA17D9208DF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goFish/Pods-goFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F43CC15D9A72BB35E35F65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goFishTests/Pods-goFishTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA32927337D85F83F19E81A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goFishTests/Pods-goFishTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB12438F1036BE5B24AB7A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BDB831F1E5D0BFE006053A1 /* Sources */ = {
@@ -300,15 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDB833C1E5D0BFE006053A1 /* goFishTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BDB833E1E5D0BFE006053A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BDB83471E5D0BFF006053A1 /* goFishUITests.swift in Sources */,
+				3B388D081E6667C100533186 /* GoFishSpec.swift in Sources */,
+				3B388D061E66659B00533186 /* DeckSpec.swift in Sources */,
+				3B388D0A1E666C4400533186 /* PlayerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,11 +399,6 @@
 			isa = PBXTargetDependency;
 			target = 3BDB83221E5D0BFE006053A1 /* goFish */;
 			targetProxy = 3BDB83381E5D0BFE006053A1 /* PBXContainerItemProxy */;
-		};
-		3BDB83441E5D0BFE006053A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3BDB83221E5D0BFE006053A1 /* goFish */;
-			targetProxy = 3BDB83431E5D0BFE006053A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,6 +517,7 @@
 		};
 		3BDB834C1E5D0BFF006053A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FD7B48D46511207D562E94 /* Pods-goFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = goFish/Info.plist;
@@ -454,6 +530,7 @@
 		};
 		3BDB834D1E5D0BFF006053A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198BC8EFC62DE5D9BCA62EE7 /* Pods-goFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = goFish/Info.plist;
@@ -466,13 +543,17 @@
 		};
 		3BDB834F1E5D0BFF006053A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848A46F31F1B8237EFD2ADE3 /* Pods-goFishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = goFishTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jenn.goFishTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "goFishTests/goFishTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goFish.app/goFish";
 			};
@@ -480,41 +561,18 @@
 		};
 		3BDB83501E5D0BFF006053A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB82F6450711CD955674292 /* Pods-goFishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = goFishTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jenn.goFishTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "goFishTests/goFishTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goFish.app/goFish";
-			};
-			name = Release;
-		};
-		3BDB83521E5D0BFF006053A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = goFishUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jenn.goFishUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = goFish;
-			};
-			name = Debug;
-		};
-		3BDB83531E5D0BFF006053A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = goFishUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jenn.goFishUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = goFish;
 			};
 			name = Release;
 		};
@@ -537,6 +595,7 @@
 				3BDB834D1E5D0BFF006053A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BDB834E1E5D0BFF006053A1 /* Build configuration list for PBXNativeTarget "goFishTests" */ = {
 			isa = XCConfigurationList;
@@ -545,14 +604,7 @@
 				3BDB83501E5D0BFF006053A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3BDB83511E5D0BFF006053A1 /* Build configuration list for PBXNativeTarget "goFishUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BDB83521E5D0BFF006053A1 /* Debug */,
-				3BDB83531E5D0BFF006053A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

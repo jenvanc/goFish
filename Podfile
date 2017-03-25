@@ -9,7 +9,8 @@ target 'goFish' do
 
   target 'goFishTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'goFishUITests' do

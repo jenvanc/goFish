@@ -11,16 +11,11 @@ import Foundation
 struct Deck {
     
     var cards: [Card] = {
-        var cards = [Card]()
-        
-        Suit.AllValues.forEach { suit in
-            Rank.AllValues.forEach { rank in
-                let card = Card(suit: suit, rank: rank)
-                cards.append(card)
+        return Suit.AllValues.flatMap { suit in
+            Rank.AllValues.map { rank in
+                return Card(suit: suit, rank: rank)
             }
         }
-        
-        return cards
     }()
     
     mutating func shuffle() {
