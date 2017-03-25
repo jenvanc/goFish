@@ -30,4 +30,5 @@ class GoFish {
         guard !deck.cards.isEmpty else { return nil }
         return deck.draw()
     }
+
 }
