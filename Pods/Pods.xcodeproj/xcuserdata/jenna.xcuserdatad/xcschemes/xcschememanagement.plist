@@ -19,12 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-goFishUITests.xcscheme</key>
+		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Quick.xcscheme</key>
+		<key>Spring.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,11 +32,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0321FEA093246ECAB2F19BE68837FFD6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>0921CC2F4398BE9A4F1CEACB30684B56</key>
 		<dict>
 			<key>primary</key>
@@ -47,12 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7BFC550AD046FF3F0A4174E4C38C5E8D</key>
+		<key>8AA5648779DC5B7FD80B40483A459835</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8AA5648779DC5B7FD80B40483A459835</key>
+		<key>CFDE3F07BDBFA6898C1FD5F69DCBE270</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4F4E37EF9ECFF639F8BF98C6AC5E367</key>
 		<dict>
 			<key>primary</key>
 			<true/>
